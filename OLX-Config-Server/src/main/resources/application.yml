@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: configuration-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Tejal142/olx-config
+          username: Tejal142
+          password: Tejal@123
+          clone-on-start: true
+          
+server:
+  port: 8888
